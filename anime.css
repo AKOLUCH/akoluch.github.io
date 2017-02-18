@@ -1,0 +1,31 @@
+@keyframes fadeIn {
+from {
+opacity : 0;
+}
+to {
+opacity : 1;
+}
+}
+* {
+margin : 0;
+padding : 0;
+text-align : center;
+font-size : 120%;
+font-family : "Arial", "Helvetica", sans-serif;
+color : #FF8000;
+animation-name : fadeIn;
+animation-duration : 3s;
+}
+header {
+font-weight : 900;
+font-size : 200%;
+color : #0080FF;
+}
+p {
+line-height : 150%;
+}
+.valuelist {
+list-style-position : inside;
+list-style-image : url('bullet.gif');
+line-height : 150%;
+}
